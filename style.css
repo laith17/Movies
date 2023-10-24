@@ -1,0 +1,36 @@
+.movie-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.movie-list .movie-card {
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.movie-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.movie-genre,
+.movie-rating {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #666;
+}
